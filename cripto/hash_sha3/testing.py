@@ -7,6 +7,6 @@ def sha3_hash(input_string):
     hash_value = digest.finalize()
     return hash_value.hex()
 
-input_string = "Ai meu deus do ceu"
+input_string = "Oh my dear god, this is a message to be hashed, that should be much longer."
 hashed_value = sha3_hash(input_string)
 print(hashed_value, len(hashed_value)* 8) # 512 bits of output 

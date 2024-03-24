@@ -6,7 +6,7 @@ key = Fernet.generate_key()
 print(key)
 f = Fernet(key)
 
-message = "oi gatinha vamos sair"
+message = "AAAAAAAAAAAAAAAAA"
 e_message = f.encrypt(message.encode('utf-8'))
 
 print("mensagem encriptada " + e_message.decode('utf-8'))

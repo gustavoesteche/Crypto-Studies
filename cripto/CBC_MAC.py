@@ -21,6 +21,6 @@ def cbc_mac(message:str, key, l):
     
     return t 
 
-message = b'i will off myself ola como voce esta ai meu deus'
+message = b'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
 key = os.urandom(32)
 print(cbc_mac(message, key, 2))
